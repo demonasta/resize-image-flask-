@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Resizer</title>
+</head>
+<body>
+    <h1>Image Resizer</h1>
+    <form method="POST" enctype="multipart/form-data">
+        <label for="size">Image Size:</label>
+        <input type="number" name="size" required>
+        <label for="folder_name">Folder Name:</label>
+        <input type="text" name="folder_name" required>
+        <label for="images">Select Images:</label>
+        <input type="file" name="images" multiple required>
+        <button type="submit">Resize Images</button>
+    </form>
+</body>
+</html>
+
